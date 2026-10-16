@@ -1,0 +1,7 @@
+# Probado con Python 3.11 en Windows 11
+# mediapipe ya instala opencv-contrib-python: NO instalar también opencv-python (entran en conflicto)
+mediapipe==1.0.1
+pygame>=2.6
+numpy>=1.26
+# Lista las cámaras con su identificador de hardware (para usar siempre la integrada)
+cv2_enumerate_cameras>=1.4
